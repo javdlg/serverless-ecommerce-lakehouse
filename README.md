@@ -1,4 +1,4 @@
-# Serverless E-Commerce Data Lakehouse 🚀
+# Serverless E-Commerce Data Lakehouse 🏢
 
 ## 📌 Project Overview
 This repository contains an end-to-end Data Engineering project designed to process and analyze the Brazilian E-Commerce Public Dataset by Olist. The architecture is built entirely on AWS using a **Serverless** and **FinOps** (cost-optimized) approach, ensuring high performance with near-zero operational costs.
@@ -31,4 +31,4 @@ The pipeline follows a modern Data Lakehouse medallion architecture (Raw -> Clea
 Step-by-step instructions on how to configure the AWS CLI, deploy the Terraform infrastructure, and trigger the initial data load will be documented as the project progresses.
 
 ---
-**Author:** A Data Science Technician pivoting towards Data and Software Engineering. Passionate about building scalable, cost-effective data solutions.
+**Author:** Javier E. Dlogokiski, Data Science Technician.
