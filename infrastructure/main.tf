@@ -15,7 +15,7 @@ provider "aws" {
 resource "aws_s3_bucket" "data_lake" {
  # IMPORTANT: The bucket name must be UNIQUE worldwide across all of AWS
  # Change "your-name" to your real name or a random number
-  bucket = "${var.project_name}-data-tu-nombre"
+  bucket = "${var.project_name}"
   
  # This allows us to delete the bucket completely from Terraform at the end of the project,
  # even if it has files inside (useful to avoid leaving resources running and incurring costs).
