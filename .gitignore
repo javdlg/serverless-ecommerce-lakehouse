@@ -24,3 +24,7 @@ terraform.rc
 .DS_Store
 .vscode/
 .idea/
+
+# Data files
+data/
+*.csv
