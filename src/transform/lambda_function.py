@@ -1,6 +1,10 @@
 import awswrangler as wr
 import pandas as pd
 import logging
+import boto3
+
+# Region force against local failure
+boto3.setup_default_session(region_name="us-east-1")
 
 # Configure logging to see outputs in the console/CloudWatch
 logger = logging.getLogger()
