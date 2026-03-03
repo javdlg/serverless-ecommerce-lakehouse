@@ -6,7 +6,7 @@ from botocore.exceptions import ClientError
 # We use the exactly name of the bucket recently created in AWS S3
 BUCKET_NAME = "ecommerce-lakehouse-javdlg-ar"
 # Local path where the CSV files are stored
-LOCAL_FILE_PATH = "../../data/olist_orders_dataset.csv"
+LOCAL_FILE_PATH = "data/olist_orders_dataset.csv"
 # Logic path in S3 where the files will be stored (simulating a partition per data domain)
 S3_KEY_NAME = "raw/orders/olist_orders_dataset.csv"
 
