@@ -1,4 +1,4 @@
--- We create the logic database in the AWS catalog
+-- We create the logic database in the AWS catalog if not exists, this is the database that we will use in our queries in Athena and in our ETL jobs in AWS Glue.
 CREATE DATABASE IF NOT EXISTS ecommerce_db;
 
 -- We create the external table appointing to our Parquet files in S3

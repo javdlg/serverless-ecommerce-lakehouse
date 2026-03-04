@@ -38,6 +38,9 @@ def lambda_handler(event, context):
 
         # B. Cast string to datetime
         df["order_purchase_timestamp"] = pd.to_datetime(df["order_purchase_timestamp"])
+        df["order_delivered_customer_date"] = pd.to_datetime(
+            df["order_delivered_customer_date"]
+        )
 
         # C. Select only business-relevant columns (noise reduction)
         final_columns = [
