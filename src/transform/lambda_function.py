@@ -2,16 +2,17 @@ import awswrangler as wr
 import pandas as pd
 import logging
 import boto3
+import os
 
 # Region force against local failure
-boto3.setup_default_session(region_name="us-east-1")
+# boto3.setup_default_session(region_name="us-east-1")
 
 # Configure logging to see outputs in the console/CloudWatch
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # Make sure this is your exact bucket name
-BUCKET_NAME = "ecommerce-lakehouse-javdlg-ar"
+BUCKET_NAME = os.environ.get("BUCKET_NAME", "ecommerce-lakehouse-javdlg-ar")
 
 
 def lambda_handler(event, context):
