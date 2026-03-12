@@ -21,6 +21,7 @@ override.tf.json
 terraform.rc
 
 # OS & IDEs
+Thumbs.db
 .DS_Store
 .vscode/
 .idea/
