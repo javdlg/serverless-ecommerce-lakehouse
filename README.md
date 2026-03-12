@@ -1,4 +1,4 @@
-# Serverless E-Commerce Data Lakehouse 🏢
+# Serverless E-Commerce Data Lakehouse
 
 ## 📌 Project Overview
 This repository contains an end-to-end Data Engineering project designed to process and analyze the Brazilian E-Commerce Public Dataset by Olist. The architecture is built entirely on AWS using a **Serverless** and **FinOps** (cost-optimized) approach, ensuring high performance with near-zero operational costs.

@@ -64,14 +64,14 @@ def lambda_handler(event, context):
             mode="overwrite",  # Overwrites if already exists (for testing purposes)
         )
 
-        logging.info("✅ ETL completed successfully.")
+        logging.info("ETL completed successfully.")
         return {
             "statusCode": 200,
             "body": f"Successfully processed {len(df_clean)} rows.",
         }
 
     except Exception as e:
-        logging.error(f"❌ Error during ETL process: {e}")
+        logging.error(f"Error during ETL process: {e}")
         raise e
 
 
