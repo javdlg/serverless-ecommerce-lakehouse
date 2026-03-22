@@ -23,7 +23,7 @@ The final layer of the project is a business-facing dashboard built to track log
 * **Language:** Python 3.x (boto3, pandas, awswrangler)
 * **Data Processing:** Serverless ETL (AWS Lambda)
 * **Data Warehouse / Analytics:** Amazon Athena (Presto SQL)
-* **Business Intelligence:** Power BI (DAX, DirectQuery, Simba ODBC)
+* **Business Intelligence:** Power BI (DAX, DirectQuery, Athena ODBC)
 * **Infrastructure / DevOps:** Git, GitHub, Terraform (WIP)
 
 ## 📂 Repository Structure
